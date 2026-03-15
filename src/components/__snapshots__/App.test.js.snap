@@ -23,13 +23,8 @@ exports[`App renders correctly 1`] = `
       className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary makeStyles-root-1 MuiPaper-elevation4"
     >
       <div
-        className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+        className="MuiToolbar-root MuiToolbar-regular makeStyles-toolbar-2 MuiToolbar-gutters"
       >
-        <div
-          className="MuiTypography-root makeStyles-title-2 MuiTypography-h6"
-        >
-          React Puzzle Games - 15 Puzzle
-        </div>
         <button
           aria-label="Start a new game"
           className="MuiButtonBase-root MuiButton-root MuiButton-text"
@@ -65,11 +60,6 @@ exports[`App renders correctly 1`] = `
                   d="M13 3h-2v10h2V3zm4.83 2.17l-1.42 1.42C17.99 7.86 19 9.81 19 12c0 3.87-3.13 7-7 7s-7-3.13-7-7c0-2.19 1.01-4.14 2.58-5.42L6.17 5.17C4.23 6.82 3 9.26 3 12c0 4.97 4.03 9 9 9s9-4.03 9-9c0-2.74-1.23-5.18-3.17-6.83z"
                 />
               </svg>
-            </span>
-            <span
-              className="MuiTypography-root MuiTypography-button"
-            >
-              New game
             </span>
           </span>
         </button>
@@ -109,11 +99,6 @@ exports[`App renders correctly 1`] = `
                 />
               </svg>
             </span>
-            <span
-              className="MuiTypography-root MuiTypography-button"
-            >
-              Pause
-            </span>
           </span>
         </button>
         <button
@@ -152,7 +137,6 @@ exports[`App renders correctly 1`] = `
                 />
               </svg>
             </span>
-            Reset game
           </span>
         </button>
         <div
@@ -217,167 +201,167 @@ exports[`App renders correctly 1`] = `
       </div>
     </header>
     <div
-      className="makeStyles-root-3 makeStyles-root-5"
+      className="makeStyles-root-4 makeStyles-root-6"
     >
       <div
-        className="makeStyles-tile-4 makeStyles-tile-6"
+        className="makeStyles-tile-5 makeStyles-tile-7"
       >
         <div
-          className="makeStyles-root-7 makeStyles-root-9"
+          className="makeStyles-root-8 makeStyles-root-10"
           onClick={[Function]}
         >
           <span
-            className="makeStyles-tileNumber-8"
+            className="makeStyles-tileNumber-9"
           >
             4
           </span>
         </div>
         <div
-          className="makeStyles-root-7 makeStyles-root-10"
+          className="makeStyles-root-8 makeStyles-root-11"
           onClick={[Function]}
         >
           <span
-            className="makeStyles-tileNumber-8"
+            className="makeStyles-tileNumber-9"
           >
             6
           </span>
         </div>
         <div
-          className="makeStyles-root-7 makeStyles-root-11"
+          className="makeStyles-root-8 makeStyles-root-12"
           onClick={[Function]}
         >
           <span
-            className="makeStyles-tileNumber-8"
+            className="makeStyles-tileNumber-9"
           >
             11
           </span>
         </div>
         <div
-          className="makeStyles-root-7 makeStyles-root-12"
+          className="makeStyles-root-8 makeStyles-root-13"
           onClick={[Function]}
         >
           <span
-            className="makeStyles-tileNumber-8"
+            className="makeStyles-tileNumber-9"
           >
             1
           </span>
         </div>
         <div
-          className="makeStyles-root-7 makeStyles-root-13"
+          className="makeStyles-root-8 makeStyles-root-14"
           onClick={[Function]}
         >
           <span
-            className="makeStyles-tileNumber-8"
+            className="makeStyles-tileNumber-9"
           >
             2
           </span>
         </div>
         <div
-          className="makeStyles-root-7 makeStyles-root-14"
+          className="makeStyles-root-8 makeStyles-root-15"
           onClick={[Function]}
         >
           <span
-            className="makeStyles-tileNumber-8"
+            className="makeStyles-tileNumber-9"
           >
             16
           </span>
         </div>
         <div
-          className="makeStyles-root-7 makeStyles-root-15"
+          className="makeStyles-root-8 makeStyles-root-16"
           onClick={[Function]}
         >
           <span
-            className="makeStyles-tileNumber-8"
+            className="makeStyles-tileNumber-9"
           >
             3
           </span>
         </div>
         <div
-          className="makeStyles-root-7 makeStyles-root-16"
+          className="makeStyles-root-8 makeStyles-root-17"
           onClick={[Function]}
         >
           <span
-            className="makeStyles-tileNumber-8"
+            className="makeStyles-tileNumber-9"
           >
             15
           </span>
         </div>
         <div
-          className="makeStyles-root-7 makeStyles-root-17"
+          className="makeStyles-root-8 makeStyles-root-18"
           onClick={[Function]}
         >
           <span
-            className="makeStyles-tileNumber-8"
+            className="makeStyles-tileNumber-9"
           >
             10
           </span>
         </div>
         <div
-          className="makeStyles-root-7 makeStyles-root-18"
+          className="makeStyles-root-8 makeStyles-root-19"
           onClick={[Function]}
         >
           <span
-            className="makeStyles-tileNumber-8"
+            className="makeStyles-tileNumber-9"
           >
             9
           </span>
         </div>
         <div
-          className="makeStyles-root-7 makeStyles-root-19"
+          className="makeStyles-root-8 makeStyles-root-20"
           onClick={[Function]}
         >
           <span
-            className="makeStyles-tileNumber-8"
+            className="makeStyles-tileNumber-9"
           >
             7
           </span>
         </div>
         <div
-          className="makeStyles-root-7 makeStyles-root-20"
+          className="makeStyles-root-8 makeStyles-root-21"
           onClick={[Function]}
         >
           <span
-            className="makeStyles-tileNumber-8"
+            className="makeStyles-tileNumber-9"
           >
             13
           </span>
         </div>
         <div
-          className="makeStyles-root-7 makeStyles-root-21"
+          className="makeStyles-root-8 makeStyles-root-22"
           onClick={[Function]}
         >
           <span
-            className="makeStyles-tileNumber-8"
+            className="makeStyles-tileNumber-9"
           >
             12
           </span>
         </div>
         <div
-          className="makeStyles-root-7 makeStyles-root-22"
+          className="makeStyles-root-8 makeStyles-root-23"
           onClick={[Function]}
         >
           <span
-            className="makeStyles-tileNumber-8"
+            className="makeStyles-tileNumber-9"
           >
             14
           </span>
         </div>
         <div
-          className="makeStyles-root-7 makeStyles-root-23"
+          className="makeStyles-root-8 makeStyles-root-24"
           onClick={[Function]}
         >
           <span
-            className="makeStyles-tileNumber-8"
+            className="makeStyles-tileNumber-9"
           >
             8
           </span>
         </div>
         <div
-          className="makeStyles-root-7 makeStyles-root-24"
+          className="makeStyles-root-8 makeStyles-root-25"
           onClick={[Function]}
         >
           <span
-            className="makeStyles-tileNumber-8"
+            className="makeStyles-tileNumber-9"
           >
             5
           </span>
@@ -386,7 +370,7 @@ exports[`App renders correctly 1`] = `
     </div>
   </div>
   <footer
-    className="makeStyles-root-25"
+    className="makeStyles-root-26"
   >
     <a
       href="https://github.com/react-puzzle-games/15-puzzle/"
@@ -394,7 +378,7 @@ exports[`App renders correctly 1`] = `
       target="_blank"
     >
       <svg
-        className="makeStyles-root-28"
+        className="makeStyles-root-29"
         height="24px"
         version="1.1"
         viewBox="0 0 435.549 435.549"
@@ -411,14 +395,14 @@ exports[`App renders correctly 1`] = `
     <p>
       Made with 
       <span
-        className="makeStyles-heart-26"
+        className="makeStyles-heart-27"
       >
         ♥
       </span>
        by
        
       <a
-        className="makeStyles-link-27"
+        className="makeStyles-link-28"
         href="https://github.com/react-puzzle-games"
         rel="noopener noreferrer"
         target="_blank"

@@ -14,13 +14,8 @@ exports[`Game renders correctly 1`] = `
     className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary makeStyles-root-1 MuiPaper-elevation4"
   >
     <div
-      className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+      className="MuiToolbar-root MuiToolbar-regular makeStyles-toolbar-2 MuiToolbar-gutters"
     >
-      <div
-        className="MuiTypography-root makeStyles-title-2 MuiTypography-h6"
-      >
-        React Puzzle Games - 15 Puzzle
-      </div>
       <button
         aria-label="Start a new game"
         className="MuiButtonBase-root MuiButton-root MuiButton-text"
@@ -56,11 +51,6 @@ exports[`Game renders correctly 1`] = `
                 d="M13 3h-2v10h2V3zm4.83 2.17l-1.42 1.42C17.99 7.86 19 9.81 19 12c0 3.87-3.13 7-7 7s-7-3.13-7-7c0-2.19 1.01-4.14 2.58-5.42L6.17 5.17C4.23 6.82 3 9.26 3 12c0 4.97 4.03 9 9 9s9-4.03 9-9c0-2.74-1.23-5.18-3.17-6.83z"
               />
             </svg>
-          </span>
-          <span
-            className="MuiTypography-root MuiTypography-button"
-          >
-            New game
           </span>
         </span>
       </button>
@@ -100,11 +90,6 @@ exports[`Game renders correctly 1`] = `
               />
             </svg>
           </span>
-          <span
-            className="MuiTypography-root MuiTypography-button"
-          >
-            Pause
-          </span>
         </span>
       </button>
       <button
@@ -143,7 +128,6 @@ exports[`Game renders correctly 1`] = `
               />
             </svg>
           </span>
-          Reset game
         </span>
       </button>
       <div
@@ -208,10 +192,10 @@ exports[`Game renders correctly 1`] = `
     </div>
   </header>
   <div
-    className="makeStyles-root-3 makeStyles-root-5"
+    className="makeStyles-root-4 makeStyles-root-6"
   >
     <div
-      className="makeStyles-tile-4 makeStyles-tile-6"
+      className="makeStyles-tile-5 makeStyles-tile-7"
     />
   </div>
 </div>
