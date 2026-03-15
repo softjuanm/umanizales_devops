@@ -1,22 +1,18 @@
 pipeline {
     agent any
-
     tools {
         nodejs 'NodeJS-18'
     }
-
     environment {
         CI = 'true'
         DOCKER_IMAGE = 'react-15-puzzle'
     }
-
     stages {
         stage('Install') {
             steps {
                 sh 'npm ci --legacy-peer-deps'
             }
         }
-
         stage('Test') {
             steps {
                 sh 'npm test -- --watchAll=false --coverage'
@@ -32,13 +28,11 @@ pipeline {
                 }
             }
         }
-
         stage('Build') {
             steps {
                 sh 'npm run build'
             }
         }
-
         stage('Docker Build') {
             steps {
                 sh "docker build -t ${DOCKER_IMAGE}:${BUILD_NUMBER} ."
@@ -46,7 +40,6 @@ pipeline {
             }
         }
     }
-
     post {
         success {
             echo 'Pipeline completed successfully!'
